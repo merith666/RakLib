@@ -77,7 +77,7 @@ class SessionManager{
 	/** @var int[] string (address) => int (number of packets) */
 	protected $ipSec = [];
 
-	public $portChecking = false;
+	public $portChecking = true;
 
 	/** @var int */
 	protected $startTimeMS;
